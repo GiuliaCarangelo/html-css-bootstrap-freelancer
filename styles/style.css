@@ -14,6 +14,22 @@ body{
     width: 250px;
 }
 
+.light-grey-button{
+    filter: invert(100%);
+}
+
+.white-star{
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
 .hero-text{
     font-size: 2.4rem;
+}
+
+.spacer{
+    height: 6px;
+    width: 100px;
+    border-radius: 5px;
 }
