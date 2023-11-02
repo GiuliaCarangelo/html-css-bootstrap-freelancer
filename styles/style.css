@@ -6,6 +6,10 @@ body{
     background-color: #2c3e50;
 }
 
+.dark-blue-text{
+    color: #2c3e50;
+}
+
 .bg-my-green{
     background-color: #1abc9c;
 }
@@ -18,7 +22,7 @@ body{
     filter: invert(100%);
 }
 
-.white-star{
+.my-star{
     font-size: 2.5rem;
 }
 
@@ -28,7 +32,7 @@ body{
 
 .spacer{
     height: 6px;
-    width: 100px;
+    width: 20%;
     border-radius: 5px;
 }
 
