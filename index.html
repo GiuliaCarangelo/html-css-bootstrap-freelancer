@@ -5,32 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
-    <nav>
-        <div class="container-fluid bg-blue text-white">
-            <div class="row p-2 d-flex p-4">
-                <div class="col w-25">start bootstrap</div>
-                <div class="col w-25 text-end d-md-none">hamburger menu</div>
-                <div class="col w-25 text-end d-none d-md-block">
-                    <ul class="navbar-nav d-flex d-lg-flex justify-content-evenly justify-content-end flex-row">
-                        <li class="nav-item me-1 p-lg-2">PORTFOLIO</li>
-                        <li class="nav-item me-1 p-lg-2">ABOUT</li>
-                        <li class="nav-item me-1 p-lg-2">CONTACT</li>
-                    </ul>
+    <div class="container-fluid bg-dark-blue d-flex justify-content-between">
+        <nav class="container-fluid">
+            <div class="row py-4 d-flex bg-dark-blue navbar">
+                <div class="col-6">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-white fs-4 fw-bold text-uppercase">start bootstrap</a>
+                    </div>
+                </div>
+                <div class="col-6 text-end">
+                    <button class="navbar-toggler d-sm-block d-md-none d-lg-none" type="button"aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <section>
+        <div class="container-fluid">
+            <div class="row bg-my-green">
+                <div class="col-12 text-white">
+                    <img src="./img/avatar.svg" alt="">
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-green d-flex justify-content-center align-content-center text-white px-lg-4">
-            <img src="" alt="">
-            <h1 class="fs-1 text-uppercase">start bootstrap</h1>
-        </div>
-
-    </nav>
+    </section>
 </body>
 
 </html>
